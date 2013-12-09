@@ -15,4 +15,4 @@ puts "His teeth are usually %s depending on the coffee." % my_teeth
 
 # this line is tricky, let's get it exactly right
 puts "If I add %d, %d, and %d I get %d." % [my_age, 
-   my_height, my_0weight, my_age + my_height + my_weight]
+   my_height, my_weight, my_age + my_height + my_weight]
