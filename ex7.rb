@@ -1,5 +1,5 @@
 puts "Mary had a little lamb."
-puts "Its fleece was white as%s." % 'snow'
+puts "Its fleece was white as %s." % 'snow'
 puts "And everywhere that Mary went."
 puts "." * 10 # what'd that do?
 
@@ -16,10 +16,10 @@ end10 = "g"
 end11 = "e"
 end12 = "r"  
 
-# notice how to use print instead of puts here.
+# notice how to use print instead of puts here.Changing it to puts
 # and see what happens.
-print end1 + end2 + end3 + end4 + end5 + end6
-print end7 + end8 + end9 + end10 + end11 + end12
+puts end1 + end2 + end3 + end4 + end5 + end6
+puts end7 + end8 + end9 + end10 + end11 + end12
 
 # this just is polite use of the terminal, trying removing it
 puts
