@@ -12,4 +12,4 @@ file_again = STDIN.gets.chomp()
 
 txt_again = File.open(file_again)
 
-puts txt-again.read()
+puts txt_again.read()
