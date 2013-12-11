@@ -10,14 +10,14 @@ def self.sort_words(words)
 end
 
 # Prints the first word after popping it off.
-def self.print_first_word(words)
+def puts_first_word(words)
     word = words.pop(0)
     puts word
 end
 
 # Prints the last word after popping it off.
-def self.print_last_word(words)
-    word = words.pop()
+def puts_last_word(words)
+    word = words.pop(1)
     puts word
 end
 
@@ -28,14 +28,14 @@ def self.sort_sentence(sentence)
 end
 
 # Puts the first and last words of the sentence.
-def self.sort_first_and_last(sentence)
+def puts_first_and_last(sentence)
     words = break_words(sentence)
     puts_first_word(words)
     puts_last_word(words)
 end
 
 # Sorts the words then prints the first and last one.
-def self.puts_first_and_last_sorted(sentence)
+def puts_first_and_last_sorted(sentence)
     words = sort_sentence(sentence)
     puts_first_word(words)
     puts_last_word(words)
@@ -86,12 +86,12 @@ sentence = "All good\tthings come to those who wait."
 words = break_words(sentence)
 sorted_words = sort_words(words)
 
-print_first_word(words)
-print_last_word(words)
-print_first_word(sorted_words)
-print_last_word(sorted_words)
+puts_first_word(words)
+puts_last_word(words)
+puts_first_word(sorted_words)
+puts_last_word(sorted_words)
 sorted_words = sort_sentence(sentence)
-print_sorted_words
+print sorted_words
 
 puts_first_and_last(sentence)
 
