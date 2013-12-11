@@ -93,7 +93,7 @@ puts_last_word(sorted_words)
 sorted_words = ex25.sort_sentence(sentence)
 prin sorted_words
 
-puts_irst_and_last(sentence)
+puts_first_and_last(sentence)
 
 puts_first_a_last_sorted(sentence)
 
