@@ -78,7 +78,7 @@ puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 start_point = start_point / 10
 
 puts "We can also do that this way:"
-puts "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_pont
+puts "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_point)
 
 
 sentence = "All good\tthings come to those who wait."
