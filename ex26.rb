@@ -86,10 +86,10 @@ sentence = "All good\tthings come to those who wait."
 words = break_words(sentence)
 sorted_words = sort_words(words)
 
-puts_first_word(words)
-puts_last_word(words)
-puts_first_word(sorted_words)
-puts_last_word(sorted_words)
+print_first_word(words)
+print_last_word(words)
+print_first_word(sorted_words)
+print_last_word(sorted_words)
 sorted_words = sort_sentence(sentence)
 print_sorted_words
 
