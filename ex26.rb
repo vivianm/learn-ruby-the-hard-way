@@ -83,14 +83,14 @@ puts "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_po
 
 sentence = "All good\tthings come to those who wait."
 
-words = ex26.break_words(sentence)
-sorted_words = ex26.sort_words(words)
+words = break_words(sentence)
+sorted_words = sort_words(words)
 
 puts_first_word(words)
 puts_last_word(words)
 puts_first_word(sorted_words)
 puts_last_word(sorted_words)
-sorted_words = ex26.sort_sentence(sentence)
+sorted_words = sort_sentence(sentence)
 print_sorted_words
 
 puts_first_and_last(sentence)
