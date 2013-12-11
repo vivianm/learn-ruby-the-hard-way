@@ -19,6 +19,7 @@ puts # a blank line
 
 print_all(current_file)
 
+puts # a blank line for good arrangement
 puts "Now let's rewind, kind of like a tape."
 
 rewind(current_file)
