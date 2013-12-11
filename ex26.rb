@@ -88,7 +88,7 @@ sorted_words = ex25.sort_words(words)
 
 puts_first_word(words)
 puts_last_word(words)
-.puts_first_word(sorted_words)
+puts_first_word(sorted_words)
 puts_last_word(sorted_words)
 sorted_words = ex25.sort_sentence(sentence)
 print_sorted_words
