@@ -95,6 +95,6 @@ print_sorted_words
 
 puts_first_and_last(sentence)
 
-puts_first_a_last_sorted(sentence)
+puts_first_and_last_sorted(sentence)
 
 
