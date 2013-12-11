@@ -81,7 +81,7 @@ puts "We can also do that this way:"
 puts "We'd have %d beans, %d jars, and %d crabapples." % secret_formula(start_pont
 
 
-puts "All god things come to those who wait."
+sentence = "All god things come to those who wait."
 
 words = ex25.break_words(sentence)
 sorted_words = ex25.sort_words(words)
@@ -95,6 +95,6 @@ prin sorted_words
 
 puts_irst_and_last(sentence)
 
-puts_first_a_last_sorted(senence)
+puts_first_a_last_sorted(sentence)
 
 
