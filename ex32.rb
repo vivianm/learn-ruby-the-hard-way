@@ -18,7 +18,7 @@ for i in change
 end
 
 # we can also build arrays, first start with an emptyone
-element = []
+elements = []
 
 # then use a range object to do 0 to 5 count
 for i in (0..5)
