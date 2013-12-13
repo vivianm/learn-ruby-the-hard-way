@@ -43,3 +43,16 @@ end
 thing = MyStuff.new()
 thing.apple()
 puts thing.tangerine
+
+# Reference for All above
+# hash style
+mystuff['apples']
+
+# module style
+mystuff.apples()
+puts mystuff.tangerine
+
+# class style
+thing = MyStuff.new()
+thing.apples()
+puts thing.tangerine
