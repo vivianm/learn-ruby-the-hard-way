@@ -36,4 +36,10 @@ class MyStuff
 	def apple()
 	    puts "I AM CLASSY APPLES!"
 	end
-end	    	
+end
+
+
+# Object for Class MyStuff (works like require in Module)
+thing = MyStuff.new()
+thing.apple()
+puts thing.tangerine
