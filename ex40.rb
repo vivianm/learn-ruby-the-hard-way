@@ -12,7 +12,7 @@ class Song
 end
 
 happy_bday = Song.new(["Happy birthday to you",
-	               "I don't want to get sued,"
+	               "I don't want to get sued",
 	               "So I'll stop right there"])
 
 bulls_on_parade = Song.new(["They rally aroung the family",
