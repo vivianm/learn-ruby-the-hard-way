@@ -4,7 +4,7 @@ puts mystuff['apple']
 
   # Module style
 module Mystuff
-	def Mystuff.apple()
+	def MyStuff.apple()
 	    puts "I AM APPLES!" 
 	end
 
@@ -17,3 +17,8 @@ require 'mystuff'
 
 Mystuff.apple()
 puts Mystuff::TANGERINE
+
+# reference
+mystuff['apple'] # get apple from hash
+MyStuff.apple() # get apple from module
+MyStuff::TANGERINE # same thing, it's just a variable
