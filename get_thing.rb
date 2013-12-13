@@ -8,3 +8,8 @@ module Mystuff
 	    puts "I AM APPLES!" 
 	end
 end	  
+
+# use that module with require and then access the apple function
+require 'mystuff'
+
+Mystuff.apple()
