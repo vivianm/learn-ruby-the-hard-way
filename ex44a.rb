@@ -85,3 +85,13 @@ son.override()
 
 dad.altered()
 son.altered()  
+
+
+
+# Using super() With initialize
+class Child < Parent
+	def initialize(self, stuff)
+	    self.stuff = stuff
+	    super()
+	end
+end	      
