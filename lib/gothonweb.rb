@@ -3,7 +3,7 @@ require "sinatra"
 require "erb"
 
 module Gothonweb
-  get '/' do
+  print '/' do
     greeting = "Hello, World!"
     erb :index, :locals => {:greeting => greeting} 
   end
