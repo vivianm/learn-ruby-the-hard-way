@@ -5,6 +5,12 @@ require "erb"
 module Gothonweb
   get '/' do
     greeting = "Hello, World!"
-    erb :index, :locals => {:greeting => greeting} 
+    erb :index, :locals => {:greeting => greeting}
+  end
+  
+  get '/hello' do
+    name = params[:name] || "Nobody"
+    greeting = "Hello, #{name}"
+    erb :index, :locals => {:greeting => greeting}
   end
 end
